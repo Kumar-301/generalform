@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    <body>
+        <main class="container">
+            <form action="">
+                <fieldset class="container1">
+                    <legend class="legend-content">This is my form</legend>
+                <table>
+                    <tr>
+                        <td class="td1"><label class="label1">Email:</label></td>
+                        <td><input class="input-field" type="email" name="ename" required></td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label class="label1">Password:</label></td>
+                        <td><input class="input-field" type="password" name="passw" required></td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label class="label1">Confirm Password:</label></td>
+                        <td><input class="input-field" type="password" name="conpassw" required></td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label class="label1">Update your picture:</label></td>
+                        <td><input class="input-field" type="file" name="picture" required></td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label class="label1">Gender:</label></td>
+                        <td>
+                            <input type="radio" name="gender" id="gender1" required><label for="gender1"
+                                class="label1">Male</label>
+                            <input type="radio" name="gender" id="gender2" required><label for="gender2"
+                                class="label1">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label for="country" class="label1">Selct your country:</label></td>
+                        <td>
+                            <select class="input-field" id="country">
+                                <option value="United kingdom">United kingdom</option>
+                                <option value="india">india</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Pakistan">Pakistan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label class="label1">Hobby:</label></td>
+                        <td>
+                            <input type="checkbox" name="sport" id="sport1" required><label for="sport1"
+                                class="label1">Cricket</label>
+                            <input type="checkbox" name="sport" id="sport2" required><label for="sport2"
+                                class="label1">Football</label>
+                        </td>
+                    </tr>
+                    <tr class="adress-container">
+                        <td class="td1"><label for="adress1" class="label1 address">Address:</label></td>
+                        <td><textarea class="input-field" name="address" id="adress1" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" class="input-field"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            </form>
+        </main>
+    </body>
+
+    </html>
+</body>
+
+</html>

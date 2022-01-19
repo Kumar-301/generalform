@@ -1,0 +1,41 @@
+.container1{
+    border: orange 2px solid;
+    padding: 20px;
+    
+}
+.legend-content{
+    background-color: orange;
+    padding:5px;
+    color:white;
+    font-size:1.3rem;
+}
+html{
+    font-size:10px;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+}
+.label1{
+    font-size:1.7rem;
+}
+.input-field{
+    background-color: orange;
+}
+.adress-container{
+    position:relative;
+}
+.address{
+    position:absolute;
+    top:0;
+}
+.td1{
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom:5px;
+}
+
